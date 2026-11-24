@@ -2,6 +2,12 @@
 
 A dark teal theme from the duck app's palette, with the logo's orange beak as the accent, two pixel-duck backgrounds, and an optional `SUPER + ALT + D` shortcut that opens duck in a terminal.
 
+![Ducks background](backgrounds/0-ducks-pixel.png)
+
+![Palette](preview/palette.svg)
+
+<img src="backgrounds/1-duck-pixel.png" alt="Duck background" width="49%">
+
 ## Install
 
 ```bash
