@@ -10,7 +10,7 @@ omarchy theme install https://github.com/Drache93/omarchy-duck-theme
 
 ## Duck shortcut (optional)
 
-Requires [duck](https://github.com/Drache93) to be installed.
+Requires `duck` to be installed.
 
 ```bash
 ~/.config/omarchy/themes/duck/install-extras.sh
