@@ -1,0 +1,23 @@
+#!/bin/bash
+# Launch duck in a terminal the way Omarchy launches its coding agents.
+# Usage: omarchy-agent-duck [--inline] [message...]
+inline=false
+[[ ${1:-} == --inline ]] && { inline=true; shift; }
+
+# Start in ~/Work like `omarchy agent` does, rather than $HOME.
+[[ $PWD == "$HOME" && -d $HOME/Work ]] && cd "$HOME/Work"
+
+# A standalone duck in ~/.local/bin wins over one on PATH, as Omarchy prefers it.
+duck=$HOME/.local/bin/duck
+[[ -x $duck ]] || duck=$(command -v duck) || { echo "duck is not installed" >&2; exit 1; }
+
+# duck takes its first message as positional words.
+command=("$duck")
+(($#)) && command+=("$*")
+
+if [[ $inline == true ]]; then
+  exec "${command[@]}"
+else
+  # Its own app-id gives duck its own dock entry and window class.
+  exec omarchy-launch-tui --app-id=org.omarchy.duck "${command[@]}"
+fi

@@ -1,0 +1,35 @@
+# Duck: the duck app's palette (src/product/theme.ts) with the logo's orange beak.
+mode = "dark"
+
+accent = "#2bd8bd"
+selection = "#133d3c"
+muted = "#354a56"
+
+background = "#08121a"
+dark_background = "#061016"
+darker_background = "#030a0e"
+lighter_background = "#102029"
+
+foreground = "#d4dfe6"
+dark_foreground = "#8b9eab"
+light_foreground = "#e2eaef"
+bright_foreground = "#f2f6f8"
+
+red = "#ffae9b"
+yellow = "#f4c06a"
+orange = "#f48e1d"
+green = "#83e7ac"
+cyan = "#2bd8bd"
+blue = "#7fb8e8"
+magenta = "#b5a1e1"
+brown = "#a97f3b"
+
+bright_red = "#ffc4b6"
+bright_yellow = "#f8d48f"
+bright_green = "#a5efc3"
+bright_cyan = "#58e2c5"
+bright_blue = "#a3cdf0"
+bright_magenta = "#cbbcec"
+
+# The duck's body teal, for the app icons.
+icon_mark = "#35dbbc"
