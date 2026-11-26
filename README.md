@@ -1,12 +1,12 @@
 # Duck — an Omarchy theme
 
-A dark teal theme from the duck app's palette, with the logo's orange beak as the accent, two pixel-duck backgrounds, and an optional `SUPER + ALT + D` shortcut that opens duck in a terminal.
+A dark teal theme from the duck app's palette, with the logo's orange beak as the accent, the QVAC Pond sky pattern as its background, two pixel-duck alternatives, and an optional `SUPER + ALT + D` shortcut that opens duck in a terminal.
 
-![Ducks background](backgrounds/0-ducks-pixel.png)
+![Pond sky background](backgrounds/0-pond-sky.png)
 
 ![Palette](preview/palette.svg)
 
-<img src="backgrounds/1-duck-pixel.png" alt="Duck background" width="49%">
+<img src="backgrounds/1-ducks-pixel.png" alt="Ducks background" width="49%"> <img src="backgrounds/2-duck-pixel.png" alt="Duck background" width="49%">
 
 ## Install
 
